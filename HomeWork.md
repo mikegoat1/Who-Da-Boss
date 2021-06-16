@@ -59,15 +59,15 @@ node index.js
 It is recommended that you start with a directory structure that looks like the following example:
 
 ```md
-__tests__/			// jest tests
+__tests__/   // jest tests
   Employee.test.js
   Engineer.test.js
   Intern.test.js
   Manager.test.js
 dist/               // rendered output (HTML) and CSS style sheet
-lib/				// classes
-src/				// template helper code
-index.js			// runs the application
+lib/    // classes
+src/    // template helper code
+index.js   // runs the application
 ```
 
 The application must include `Employee`, `Manager`, `Engineer`, and `Intern` classes. The tests for these classes (in the `_tests_` directory) must ALL pass.
@@ -116,14 +116,13 @@ Finally, although it’s not a requirement, consider adding validation to ensure
 
 ## Grading Requirements
 
-This homework is graded based on the following criteria: 
+This homework is graded based on the following criteria:
 
 ### Deliverables: 15%
 
 * A sample HTML file generated using the application must be submitted.
 
 * Your GitHub repository containing your application code.
-
 
 ### Walkthrough Video: 32%
 
@@ -137,14 +136,13 @@ This homework is graded based on the following criteria:
 
 * The walkthrough video must demonstrate a generated HTML file that matches the user input.
 
-
 ### Technical Acceptance Criteria: 40%
 
 * Satisfies all of the preceding acceptance criteria plus the following:
 
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+  * Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
-	* Uses the [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests.
+  * Uses the [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests.
 
   * The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
 
