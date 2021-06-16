@@ -55,7 +55,7 @@ function generateCards(data) {
         <ul class="list-group list-group-flush text-center">
             <li class="list-group-item">${data.id}</li>
             <li class="list-group-item">${data.email}</li>
-            <li class="list-group-item">${data.officeNumber}</li>
+            <li class="list-group-item">${data.special}</li>
         </ul>
     </div>`
 
@@ -63,4 +63,4 @@ function generateCards(data) {
 
 }
 
-module.exports = generateHTML, generateCards; 
+module.exports = {generateHTML, generateCards}; 
